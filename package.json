@@ -1,0 +1,21 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/electron .",
+    "release_mac": "node release_mac.js",
+    "release_win": "node release_win.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^5.2.0",
+    "electron-prebuilt": "^0.36.1"
+  },
+  "dependencies": {
+    "glob": "^6.0.1"
+  }
+}
